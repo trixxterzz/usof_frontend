@@ -1,0 +1,72 @@
+.loginField{
+    color: antiquewhite;
+    height: 40px;
+    width: 70%;
+    margin-left: 12%;
+    background: none;
+    border: 2px solid antiquewhite;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.loginDiv{
+    background-color: rgb(110, 33, 39);
+    color: antiquewhite;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 15px;
+    width: 30%;
+    margin-left: 33%;
+    margin-top: 10%;
+}
+
+.formRow{
+    margin: 10px;
+}
+
+.loginLab{
+    font-size: 20px;
+}
+
+#loginLab{
+    margin-left: 42%;
+}
+
+#passwordLab{
+    margin-left: 39%;
+}
+
+.loginButt{
+    background:#6e2127;
+    color: antiquewhite;
+    border: 2px solid rgb(110, 33, 39);
+    height: 40px;
+    width: 30%;
+    border-radius: 7px;
+    margin-left: 35%;
+    margin-top: 20px;
+    border: 2px solid antiquewhite;
+}
+
+#regSpan{
+    float: right;
+}
+
+.addDiv{
+    margin-top: 30px;
+}
+
+a{
+    font-weight: 700;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    margin-left: 40%;
+}

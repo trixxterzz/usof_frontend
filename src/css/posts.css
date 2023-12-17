@@ -1,0 +1,283 @@
+.post, .postPagePost{
+    background-color: rgb(110, 33, 39);
+    color: antiquewhite;
+    margin: 10px;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 15px;
+}
+
+.postPagePost {
+    padding-bottom: 5%;
+    min-height: 300px;
+}
+.post h3{
+    margin-top: 0px;
+}
+
+.postCategory{
+    background-color: rgba(43, 5, 8, 0.5);
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.categories{
+    margin-top: 15%;
+}
+
+.like-container{
+    display: inline-block;
+    margin-top: 42%;
+    margin-left: 7%;
+}
+
+.commentLike-container{
+    display: inline-block;
+}
+
+.like-container:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    appearance: none;
+    -webkit-appearance: none;
+    color: antiquewhite;
+}
+
+.postHead, .commentForm{
+    display: inline-block;
+}
+
+#additionalInfo{
+    float: right;
+}
+
+#addditionalInfo span{
+    display: block;
+}
+
+#rateDiv{
+    margin-left: 15%;
+}
+
+#editButt, #deleteButt, #addCommentButt{
+    margin-top: 10px;
+    background: none;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    color: antiquewhite;
+    width: 80px;
+    height: 30px;
+}
+
+#editButt:hover, #deleteButt:hover, #addCommentButt:hover{
+    cursor: pointer;
+    background: antiquewhite;
+    color: rgb(110, 33, 39);
+}
+
+.likeIcon:hover, .commentLike-container:hover{
+    cursor: pointer;
+}
+
+#title, #content{
+    margin-left: 5px;
+}
+
+#content{
+    margin-top: 20px;
+    width: 60%;
+    overflow-wrap: break-word;
+}
+
+.content{
+    overflow-wrap: break-word;
+}
+
+#commentsLab, #noComments{
+    color: antiquewhite;
+    margin-left: 5%;
+}
+
+#commentArea{
+    background: none;
+    border: 2px solid antiquewhite;
+    color: antiquewhite;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+}
+
+#commentArea::placeholder{
+    color: rgb(166, 156, 143);
+}
+
+#commentAreaDiv{
+    width: 100%;
+}
+
+#createCommentDiv, .comment{
+    background-color: rgb(110, 33, 39);
+    color: antiquewhite;
+    margin-top: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+#addCommentButtDiv{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+#commentFormForm{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.comment{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+#ratingContainer{
+    margin-top: -10px;
+}
+
+.commentLike-container{
+    margin-left: 20px;
+}
+
+.additionalCommentFeatures{
+    align-items: end;
+}
+
+.commentContent{
+    margin-top: 2%;
+}
+
+.commentButt{
+    margin-left: 20%;
+}
+
+.noPostsLab{
+    color: antiquewhite;
+}
+
+.catDiv{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(110, 33, 39);
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.catDivUser{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(110, 33, 39);
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.catH{
+    margin-top: 0px;
+}
+
+.catOption{
+    appearance: none;
+    -webkit-appearance: none;
+    background: rgb(110, 33, 39);
+    color: antiquewhite;
+}
+
+.catOption:checked{
+    background-color: antiquewhite;
+    color: rgb(110, 33, 39);
+}
+
+
+.bloc {
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    border: solid antiquewhite 2px;
+    border-radius: 5px;
+}
+.bloc select {
+    padding: 10px;
+    margin: -5px -20px -5px -5px;
+    border: none;
+    background: rgb(110, 33, 39);
+}
+
+#postBodyArea{
+    width: 100%;
+}
+
+#searchButt{
+    background: none;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    color: antiquewhite;
+    width: 80px;
+    height: 30px;
+    margin-left: 5%;
+}
+
+#searchInput{
+    background: none;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    color: antiquewhite;
+    height: 30px;
+}
+
+#searchInput::placeholder{
+    color: antiquewhite;
+}
+
+#sortFilterDiv{
+    background: rgb(110, 33, 39);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.sortSelect, .sortOption{
+    background: rgb(110, 33, 39);
+    color: antiquewhite;
+    height: 40px;
+}
+
+.sortSelect{
+    border: 1px solid antiquewhite;
+}
+
+#sortButt{
+    background: none;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    color: antiquewhite;
+    width: 80px;
+    height: 30px;
+    margin-left: 5%;
+}
+
+#searchButt:hover, #sortButt:hover{
+    background-color: antiquewhite;
+    color: rgb(110, 33, 39);
+}

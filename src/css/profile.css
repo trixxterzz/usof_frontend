@@ -1,0 +1,67 @@
+.profileData{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 40px;
+    background: rgb(110, 33, 39);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#buttDiv{
+    margin-top: 20px;
+}
+
+#avatarButt{
+    width: 40%;
+    background-color: none;
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 7px;
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    margin-left: 13%;
+}
+
+#avatarButt:hover{
+    background-color: antiquewhite;
+    color: rgb(110, 33, 39);
+    cursor: pointer;
+}
+
+#passwButt, #changeButt{
+    margin-top: 10px;
+    background: none;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    color: antiquewhite;
+    width: 100px;
+    height: 40px;
+}
+
+#passwButt{
+    margin-left: 11.5%;
+}
+
+#passwButt:hover, #changeButt:hover{
+    background-color: antiquewhite;
+    color: rgb(110, 33, 39);
+    cursor: pointer;
+}
+
+.changeInput{
+    background: none;
+    padding: 5px;
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+}
+
+.error{
+    background-color: red;
+    color: antiquewhite;
+    margin-top: 5px;
+    padding: 10px;
+}

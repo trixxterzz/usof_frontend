@@ -1,0 +1,46 @@
+label{
+    display: block;
+}
+
+#titleInput, #postBodyArea{
+    background: none;
+    border: 2px solid antiquewhite;
+    color: antiquewhite;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.editForm{
+    background-color: rgb(110, 33, 39);
+    color: antiquewhite;
+    margin-top: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+textarea{
+    resize: none;
+}
+
+.button{
+    margin-top: 10px;
+    background: none;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    color: antiquewhite;
+    width: 80px;
+    height: 30px;
+    margin-left: 41%;
+}
+
+button:hover{
+    cursor: pointer;
+    background: antiquewhite;
+    color: rgb(110, 33, 39);
+}
+
+#postBodyArea{
+    width: 95%;
+}

@@ -1,0 +1,119 @@
+body{
+    background: rgb(86, 86, 86);
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.header{
+    background-color: #6e2127;
+    height: 70px;
+    /* display: grid;
+    grid-template-columns: 16.67% 11.11% 11.11% 11.11% 27.78% 11.11% 11.11%; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.navDiv {
+    display: flex;
+    align-items: center;
+}
+
+#logoutButt{
+    background: none;
+    color: #faebd7;
+    border: 2px solid #faebd7;
+    height: 30px;
+    border-radius: 7px;
+}
+
+#logoutButt:hover{
+    background: #faebd7;
+    color: rgb(110, 33, 39);
+}
+
+.cont{
+    margin-top: 40px;
+}
+
+.postAdditional{
+    overflow-wrap: break-word;
+}
+
+#logo{
+    max-width: 200px;
+}
+
+#addPostButt{
+    background:#6e2127;
+    color: antiquewhite;
+    border: 2px solid rgb(110, 33, 39);
+    height: 40px;
+    width: 30%;
+    border-radius: 7px;
+    margin-left: 35%;
+    margin-top: 20px;
+    border: 2px solid antiquewhite;
+}
+
+#addPostButt:hover{
+    cursor: pointer;
+    background: antiquewhite;
+    color: rgb(110, 33, 39);
+}
+
+#recoveryDiv{
+    background-color: rgb(110, 33, 39);
+    color: antiquewhite;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 15px;
+    width: 30%;
+    margin-left: 33%;
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+#recoveryHeader{
+    margin-left: 28%;
+}
+
+#recoveryHeaderSent{
+    margin-left: 5%;
+}
+
+#emailInput{
+    color: antiquewhite;
+    height: 40px;
+    width: 70%;
+    margin-left: 12%;
+    background: none;
+    border: 2px solid antiquewhite;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.recoveryButt{
+    background:#6e2127;
+    color: antiquewhite;
+    border: 2px solid rgb(110, 33, 39);
+    height: 40px;
+    width: 30%;
+    border-radius: 7px;
+    margin-left: 35%;
+    margin-top: 20px;
+    border: 2px solid antiquewhite;
+}
+
+#recoveryButt:hover{
+    background: antiquewhite;
+    color: #6e2127;
+}
+
